@@ -11,7 +11,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
-function myFunction() {
+function myOrders() {
   document.getElementById("navOrder").innerHTML = "coming soon";
 }
 (function (global) {
