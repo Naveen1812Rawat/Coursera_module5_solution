@@ -5,10 +5,15 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
     var screenWidth = window.innerWidth;
     if (screenWidth < 768) {
       $("#collapsable-nav").collapse('hide');
-    }
+    }function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
   });
 });
 
+function myFunction() {
+  document.getElementById("navOrder").innerHTML = "coming soon";
+}
 (function (global) {
 
 var dc = {};
